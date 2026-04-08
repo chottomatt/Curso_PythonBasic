@@ -13,18 +13,29 @@
 #     print('Você não digitou um número inteiro')
 
 # Atividade 2
-# horario = input('Qual é o horário? ')
-# int_horario = int(horario)
+# entrada = input('Digite a hora em números inteiros: ')
 
-# bom_dia = int_horario >= 0 and int_horario <= 11
-# boa_tarde = int_horario >=12 and int_horario <=17
-# boa_noite = int_horario >=18 and int_horario <=23
+# try:
+#     hora = int(entrada)
 
-# if bom_dia:
-#     print('Bom dia')
-# elif boa_tarde:
-#     print('Boa tarde')
-# elif boa_noite:
-#     print('Boa noite')
-# else:
-#     print('Insira um número válido')
+#     if hora >= 0 and hora <= 11:
+#         print('Bom dia')
+#     elif hora >= 12 and hora <= 17:
+#         print('Boa tarde')
+#     elif hora >= 18 and hora <= 23:
+#         print('Boa noite')
+#     else: 
+#         print('Horário não reconhecido')
+# except:
+#     print('Por favor, digite apenas números inteiros')
+
+entrada = input('Digite seu nome de usuário: ')
+nome_curto = len(entrada) <= 4
+nome_normal = len(entrada) >= 5 and len(entrada) <= 6
+
+if nome_curto:
+    print("Seu nome é curto")
+elif nome_normal:
+    print('Seu nome é normal')
+else:
+    print('Seu nome é muito grande')
