@@ -4,15 +4,27 @@
 # print(x)
 # print(y)
 
-def twoSum(self, nums, target):
-    nums = [2,7,11,15]
-    target = 9
-    vistos = {}
+# def twoSum(self, nums, target):
+#     nums = [2,7,11,15]
+#     target = 9
+#     vistos = {}
 
-    for i, num in enumerate(nums):
-        falta = target - num
+#     for i, num in enumerate(nums):
+#         falta = target - num
 
-        if falta in vistos:
-            return [vistos[falta], i]
+#         if falta in vistos:
+#             return [vistos[falta], i]
         
-        vistos [num] = i 
+#         vistos [num] = i 
+
+# qtd_1 = 3
+# qtd_2 = 3
+# qtd_3 = 3
+
+# linha_1 = 1
+# while linha_1 <= qtd_linhas:
+#     linha_2 = 1
+#     while linha_2 <= qtd_colunas:
+#         ...
+variavel = +
+print(type(variavel))
