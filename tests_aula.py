@@ -26,5 +26,9 @@
 #     linha_2 = 1
 #     while linha_2 <= qtd_colunas:
 #         ...
-variavel = +
-print(type(variavel))
+
+start = 0
+end = 10
+while start < end:
+    start += 1
+    print(start)
