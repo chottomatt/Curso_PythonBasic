@@ -27,8 +27,16 @@
 #     while linha_2 <= qtd_colunas:
 #         ...
 
-start = 0
-end = 10
-while start < end:
-    start += 1
-    print(start)
+# start = 0
+# end = 10
+# while start < end:
+#     start += 1
+#     print(start)
+
+# INPUT TABUADA
+inf_tabuada_digit = input("Digite a tabuada que você quer: ")
+inf_tabuada = int(inf_tabuada_digit)
+numeros = range(0, 100, inf_tabuada)
+
+for numero in numeros: 
+    print(numero)
